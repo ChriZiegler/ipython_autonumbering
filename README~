@@ -1,0 +1,14 @@
+Sphinx extension for automatically numbering ipython blocks.
+
+To use, write your code blocks like so:
+
+
+.. sourcecode:: ipython
+
+    In [*]: x = 5
+    In [*]: y = 9
+    In [*]: x*y
+    Out[*]: 45
+    
+    
+ 
